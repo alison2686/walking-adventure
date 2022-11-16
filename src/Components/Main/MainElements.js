@@ -1,12 +1,25 @@
 import styled from 'styled-components'
 
-export const MainContainer = styled.nav`
+export const MainContainer = styled.div`
     color: #000;
     background: '#f9f9f9';
 `;
 
-export const FindRouteContainer = styled.nav`
-    height: 500px;
-    width: 300px;
+export const MainWrapper = styled.div`
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+ 
+`;
+
+export const FindRouteContainer = styled.div`
+    height: 700px;
+    width: 400px;
     border: 1px solid black;
+`;
+
+export const MapWrapper = styled.div`
+    height: 700px;
+    width: 400px;
+    /* border: 1px solid black; */
 `;

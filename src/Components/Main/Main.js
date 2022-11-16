@@ -1,16 +1,25 @@
 import React from 'react'
+import Map from '../Map/Map'
 import {
     MainContainer,
-    FindRouteContainer
+    MainWrapper,
+    FindRouteContainer,
+    MapWrapper
 } from './MainElements'
 
 const Main = () => {
   return (
     <MainContainer>
         <div>Navbar Here</div>
-        <FindRouteContainer>
-            <h3>Find a Route</h3>
-        </FindRouteContainer>
+        <MainWrapper>
+            <FindRouteContainer>
+                <h3>Find a Route</h3>
+            </FindRouteContainer>
+        <MapWrapper>
+            <Map />
+        </MapWrapper>
+        </MainWrapper>
+
     </MainContainer>
   )
 }
