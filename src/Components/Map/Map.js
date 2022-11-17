@@ -6,12 +6,12 @@ import {
 } from './MapElements'
 import ReactMapGL from 'react-map-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
-// import * as mockData from '../../Data/mockdata.json'
+// import * as mockData from '../../Data/skateboard-parks.json'
 
 const Map = () => {
     const [viewport, setViewport] = useState({
-        latitude: 41.88012770332388, 
-        longitude: -87.6365055792995,
+        latitude: 37.79107022782, 
+        longitude: -122.43782361688397,
         zoom: 10,
         width: '100vw',
         height: '100vh'
@@ -28,7 +28,11 @@ const Map = () => {
                 onMove={evt => setViewport(evt.viewport)}
                 mapStyle="mapbox://styles/mapbox/streets-v11"
             >
-                 Markers here
+                {/* {mockData.features.map(park => (
+                    <Marker>
+                        <div>Park</div>
+                    </Marker>
+                ))} */}
             </ReactMapGL>
         </MapGLWrapper>
         </MapWrapper>

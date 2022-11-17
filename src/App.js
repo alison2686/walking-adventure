@@ -6,8 +6,6 @@ function App() {
     <div>
       <h1>Walking Adventure</h1>
       <Main />
-      
-      
     </div>
   );
 }
