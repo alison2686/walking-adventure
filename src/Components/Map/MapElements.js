@@ -6,7 +6,12 @@ export const MapContainer = styled.div`
 `;
 
 export const MapWrapper = styled.div`
-    height: 700px;
+    height: 800px;
     width: 800px;
     border: 1px solid black;
+`;
+
+export const MapGLWrapper = styled.div`
+    height: 700px;
+    width: 800px;
 `;
