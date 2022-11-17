@@ -13,7 +13,7 @@ export const MainWrapper = styled.div`
 `;
 
 export const FindRouteContainer = styled.div`
-    height: 700px;
+    height: 800px;
     width: 400px;
     border: 1px solid black;
 `;

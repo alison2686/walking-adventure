@@ -6,11 +6,12 @@ import {
 } from './MapElements'
 import ReactMapGL from 'react-map-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
+// import * as mockData from '../../Data/mockdata.json'
 
 const Map = () => {
-    const [viewport, setViewPort] = useState({
-        latitude: 37.79126167889807,
-        longitude:  -122.43793471153593,
+    const [viewport, setViewport] = useState({
+        latitude: 41.88012770332388, 
+        longitude: -87.6365055792995,
         zoom: 10,
         width: '100vw',
         height: '100vh'
@@ -24,7 +25,7 @@ const Map = () => {
             <ReactMapGL 
                 {...viewport} 
                 mapboxAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
-                onViewportChange={setViewPort}
+                onMove={evt => setViewport(evt.viewport)}
                 mapStyle="mapbox://styles/mapbox/streets-v11"
             >
                  Markers here
