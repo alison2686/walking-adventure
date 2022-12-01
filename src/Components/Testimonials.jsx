@@ -1,5 +1,5 @@
 import React from 'react'
-import {MdPersonPin} from 'react-icons/md'
+// import {MdPersonPin} from 'react-icons/md'
 import testAvatar2 from '../assets/eg-img/blue-avatar.png'
 import testAvatar1 from '../assets/eg-img/test-avatar1.png'
 import testAvatar3 from '../assets/eg-img/test-avatar3.png'

@@ -1,12 +1,12 @@
 import React from 'react'
 import {Link} from "react-router-dom"
 import {FaTwitter, FaFacebook} from "react-icons/fa"
-import {AiFillInstagram, AiOutlineClose} from "react-icons/ai"
+import {AiFillInstagram} from "react-icons/ai"
 import {BsMap} from 'react-icons/bs'
 import {IoMdWalk} from 'react-icons/io'
 import {MdOutlineAddAPhoto} from 'react-icons/md'
 import { useState } from 'react'
-import ResultsForm from './ResultsForm'
+// import ResultsForm from './ResultsForm'
 import InputForm from './InputForm'
 import UploadPhoto from './photoUploader/UploadPhoto'
 

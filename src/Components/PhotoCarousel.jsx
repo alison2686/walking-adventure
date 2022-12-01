@@ -17,7 +17,7 @@ import streetArt from '../assets/carousel-img/streetart.jpg'
 import streetPerformer from '../assets/carousel-img/streetperformer.jpg'
 import {Splide, SplideSlide} from '@splidejs/react-splide'
 import '@splidejs/react-splide/css'
-import {useEffect, useState} from 'react'
+// import {useEffect, useState} from 'react'
 
 
 function PhotoCarousel() {

@@ -1,9 +1,9 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect } from 'react'
 import Map, {GeolocateControl, Marker, NavigationControl, Popup } from 'react-map-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
-import axios from 'axios'
+// import axios from 'axios'
 import locationData from '../../Utils/mapdata.json'
-import point from '../../assets/map-img/map-pin.svg'
+// import point from '../../assets/map-img/map-pin.svg'
 import MapSearch from '../MapSearch/MapSearch'
 import {IoMdPhotos} from 'react-icons/io'
 import '../../index.css'
@@ -19,9 +19,9 @@ const Maps = () => {
 
      
 
-    const [location, setLocation] = useState([])
+    // const [location, setLocation] = useState([])
     const [selectedPt, setSelectedPt] = useState(null)
-    const [showPopup, setShowPopup] = useState(true)
+    // const [showPopup, setShowPopup] = useState(true)
 
     useEffect(() => {
         const listener = (e)=> {
@@ -104,7 +104,7 @@ const Maps = () => {
                                     <img 
                                     className='p-2 w-[60%] h-[50%] rounded-md object-cover'
                                         src={selectedPt.properties.image_1} 
-                                         alt="image"/>
+                                         alt="icon"/>
                                 </div>
                                 <div className='w-[100%]'>
                                     <h2 className='font-poppins text-lg font-bold py-2'>{selectedPt.properties.name}</h2>

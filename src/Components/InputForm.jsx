@@ -9,7 +9,7 @@ import UploadPhoto from '../Components/photoUploader/UploadPhoto'
 
 function InputForm() {
     const [miles, setMiles] = useState(1);
-    let elevation = 1;
+    // let elevation = 1;
 
     const increase = () => {
         setMiles(miles + 1)

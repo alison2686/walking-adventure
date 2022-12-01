@@ -2,9 +2,9 @@ import React from 'react'
 import Footer from '../Components/Footer'
 import NavBar from '../Components/NavBar'
 import Testimonials from '../Components/Testimonials'
-import winterWalk from '../assets/eg-img/winter_walk.png'
+// import winterWalk from '../assets/eg-img/winter_walk.png'
 import naturePhone from '../assets/eg-img/nature-phone.png'
-import {AiFillLinkedin} from 'react-icons/ai'
+// import {AiFillLinkedin} from 'react-icons/ai'
 import groupPhoto from '../assets/eg-img/group-photo.png'
 
 function About() {

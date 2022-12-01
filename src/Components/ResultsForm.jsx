@@ -8,7 +8,7 @@ import { Link } from "react-router-dom"
 
 function ResultsForm(props) {
   const [miles, setMiles] = useState(1);
-  let elevation = 1;
+//   let elevation = 1;
 
   const increase = () => {
       setMiles(miles + 1)
