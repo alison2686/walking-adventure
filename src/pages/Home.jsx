@@ -1,8 +1,8 @@
 import React from 'react'
-import Footer from '../components/Footer'
-import NavBar from '../components/NavBar'
-import InputForm from '../components/InputForm'
-import Maps from '../components/Map/Map'
+import Footer from '../Components/Footer'
+import NavBar from '../Components/NavBar'
+import InputForm from '../Components/InputForm'
+import Maps from '../Components/Map/Map'
 
 
 function Home() {

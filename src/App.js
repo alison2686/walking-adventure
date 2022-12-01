@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Routes} from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 import Home from "./pages/Home"
 import About from "./pages/About";
-import ResultsForm from './components/ResultsForm'
+import ResultsForm from './Components/ResultsForm';
 import Results from './pages/Results';
 
 const API_URL = "https://adventure.mocklab.io/api/v1/points";

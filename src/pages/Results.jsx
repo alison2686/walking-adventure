@@ -1,8 +1,8 @@
 import React from 'react'
-import Footer from '../components/Footer'
-import NavBar from '../components/NavBar'
+import Footer from '../Components/Footer'
+import NavBar from '../Components/NavBar'
 //import Map from '../components/Map/Map'
-import ResultsForm from '../components/ResultsForm'
+import ResultsForm from '../Components/ResultsForm'
 
 function Results() {
   return (

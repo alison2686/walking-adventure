@@ -5,7 +5,7 @@ import Up from "../assets/eg-img/Arrow-up.png"
 import Down from "../assets/eg-img/Arrow-down.png"
 import { Link } from 'react-router-dom'
 import PhotoCarousel from './PhotoCarousel'
-import UploadPhoto from '../components/photoUploader/UploadPhoto'
+import UploadPhoto from '../Components/photoUploader/UploadPhoto'
 
 function InputForm() {
     const [miles, setMiles] = useState(1);
