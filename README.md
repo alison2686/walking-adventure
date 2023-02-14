@@ -2,7 +2,7 @@
 
 ### This app was created for the Girl Develop It Hackathon 2022.
 
-The goal is to provide a service for wellness and health through encouraging users to walk in order to achieve their fitness goals and to explore different routes. In general, this application allows for the user to pick a location and then randomizes and area to explore around that location. In addition, the users can share pictures of the amazing sights and places they found on their paths, this, to invite others to explore this new found gems and to have a visual reminder of all the adventures and places conquered, which as result, will help them with accountability and inspiration.
+### The goal is to provide a service for wellness and health through encouraging users to walk in order to achieve their fitness goals and to explore different routes. In general, this application allows for the user to pick a location and then randomizes and area to explore around that location. In addition, the users can share pictures of the amazing sights and places they found on their paths, this, to invite others to explore this new found gems and to have a visual reminder of all the adventures and places conquered, which as result, will help them with accountability and inspiration.
 
 ## Front-End:
 
@@ -17,6 +17,8 @@ The goal is to provide a service for wellness and health through encouraging use
 
 - Mabox GL 2.11.0
 
+
 ## Link to Demo
 
-https://strolls.netlify.app/
+[Strolls: A Walking Adventure](https://strolls.netlify.app/)
+
