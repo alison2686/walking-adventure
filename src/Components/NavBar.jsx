@@ -22,14 +22,14 @@ function NavBar() {
             <Link to="/about">About Us</Link>
           </li>
           <li>
-            <Link to="">Log In</Link>
+            <Link to="/home">Log In</Link>
           </li>
           <li>
             <button
               className="bg-[#ffd25a] hover:bg-[#ffd35adc] hover:ease-in-out hover:duration-300 active:shadow-inner-md
                      text-black w-[100%] px-4 py-1 rounded-lg shadow-lg"
             >
-              <Link to="">Sign Up</Link>
+              <Link to="/signin">Sign Up</Link>
             </button>
           </li>
         </ul>
