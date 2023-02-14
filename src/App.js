@@ -3,6 +3,7 @@ import LandingPage from "./pages/LandingPage";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Results from "./pages/Results";
+import Signin from "./pages/Signin";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/results" element={<Results />} />
+          <Route path="/signin" element={<Signin />} />
         </Routes>
       </BrowserRouter>
     </div>
