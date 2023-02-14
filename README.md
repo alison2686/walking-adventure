@@ -1,21 +1,20 @@
-### Adventure REACT frontend
+# Walking Adventure
 
-Built by following this tutorial:
-https://www.youtube.com/watch?v=sh4WrNGDvQM
+## This app was created for the Girl Develop It Hackathon 2022.
 
-## For front end devs who don't want to run rails on their local machines
+### The goal is to provide a service for wellness and health through encouraging users to walk in order to achieve their fitness goals and to explore different routes. In general, this application allows for the user to pick a location and then randomizes and area to explore around that location. In addition, the users can share pictures of the amazing sights and places they found on their paths, this, to invite others to explore this new found gems and to have a visual reminder of all the adventures and places conquered, which as result, will help them with accountability and inspiration.
 
-1. Clone the repo down to your machine
-2. Navigate into the adventure folder, which contains the React front end (adventure/adventure/).
-3. In App.js, change line 6 from:
-` const API_URL = "http://localhost:3000/api/v1/points"; `
-to 
-` const API_URL = "https://adventure.mocklab.io/api/v1/points"; `
+## Front-End:
 
-This will grab data from an outside API that I created just for the purposes of developing. Make sure you change it back to the local host url before you push to github (although if you forget, it's not the end of the world. Just do your best.)
+- React version: 18.2.0
+- Tailwind version: 3.2.4
 
-4. Run `npm start` in your terminal to run locally.
+## Back-End:
 
-Sincerely hope whatever chaotic problems this causes are fewer than the chaos of installing rails 7 on 19 different machines.
+- Currently switching backend to Node
 
-Cheers!
+# Maps Rendering API:
+
+- Mabox GL 2.11.0
+
+<img src="https://strolls.netlify.app/" alt="Landing Page Option" style="max-width: 100%;">
