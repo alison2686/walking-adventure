@@ -21,4 +21,4 @@
 
 [Strolls: A Walking Adventure](https://strolls.netlify.app/)
 
-![Strolls](/repository/src/assets/welcom.png?raw=true "Landing page")
+![Strolls](/repository/src/assets/welcome.png?raw=true "Landing page")
