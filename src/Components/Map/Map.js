@@ -7,8 +7,30 @@ import locationData from '../../Utils/mapdata.json'
 import MapSearch from '../MapSearch/MapSearch'
 import {IoMdPhotos} from 'react-icons/io'
 import '../../index.css'
+import DeckGL from '@deck.gl/react';
+import {LineLayer} from '@deck.gl/layers';
+
+const INITIAL_VIEW_STATE = {
+    longitude: -122.43758758255566,
+    latitude: 37.79120588317128,
+    zoom: 13,
+    pitch: 0,
+    bearing: 0
+  };
+
+const data = [
+    {
+        sourcePosition: [-122.41858479929094, 37.76367466576563],
+        targetPosition: [-122.40364923013956, 37.76068122656553]
+    }
+]
+ 
 
 const Maps = () => {
+    const layers = [
+        new LineLayer({id: 'line-layer', data })
+    ]
+
     const [viewport, setViewport] = useState({
         latitude: 37.79120588317128, 
         longitude: -122.43758758255566,
@@ -16,8 +38,6 @@ const Maps = () => {
         width: '100vw',
         height: '100vh'
     })
-
-     
 
     // const [location, setLocation] = useState([])
     const [selectedPt, setSelectedPt] = useState(null)
@@ -54,6 +74,11 @@ const Maps = () => {
   return (
     <div>
         <div>
+            <DeckGL
+                initalViewState={INITIAL_VIEW_STATE}
+                controller={true}
+                layers={layers}
+            ></DeckGL>
             <div 
             className='mapboxgl-map w-[100%] h-[80vh] bg-white border-solid border-2 md:h-[82vh] lg:w-[100%] '>
                 <Map 
