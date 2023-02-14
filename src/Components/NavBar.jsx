@@ -56,11 +56,11 @@ function NavBar() {
               <Link to="/about">About Us</Link>
             </li>
             <li className="p-4 border-b-2 border-gray-200 w-[100%] hover:text-[#69a1ac] hover:scale-105 hover:duration-300 hover:ease-in-out">
-              <Link to="">Log In</Link>
+              <Link to="/home">Log In</Link>
             </li>
             <li className="p-4 w-[100%]">
               <button className="bg-[#ffd25a] hover:bg-[#ffd35adc] hover:ease-in-out hover:duration-300 active:shadow-inner-md text-black w-[60%] px-[2rem] py-1 rounded-lg shadow-lg">
-                <Link to="">Sign Up</Link>
+                <Link to="/signin">Sign Up</Link>
               </button>
             </li>
           </ul>
