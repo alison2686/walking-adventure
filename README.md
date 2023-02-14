@@ -20,3 +20,5 @@
 ## Link to Demo
 
 [Strolls: A Walking Adventure](https://strolls.netlify.app/)
+
+![Strolls](/repository/src/assets/welcom.png?raw=true "Landing page")
