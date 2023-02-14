@@ -111,16 +111,15 @@ function About() {
                 <p className="font-poppins ml-5">
                   {" "}
                   Lead Engineer:
-                  <span className="font-lobster text-xl">
-                    {" "}
-                    Elizabeth Goullaud
-                  </span>
+                  <span className="font-lobster text-xl"> Alison Lee</span>
                 </p>
                 <p className="font-poppins  ml-5">
                   {" "}
                   Engineer:
-                  <span className="font-lobster text-xl"> Alison Lee</span>
-                  {/* https://www.linkedin.com/in/alison2686/ */}
+                  <span className="font-lobster text-xl">
+                    {" "}
+                    Elizabeth Goullaud
+                  </span>
                 </p>
                 <p className="font-poppins ml-5">
                   {" "}

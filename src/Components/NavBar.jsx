@@ -22,7 +22,7 @@ function NavBar() {
             <Link to="/about">About Us</Link>
           </li>
           <li>
-            <Link to="">Log In</Link>
+            <Link to="/home">Log In</Link>
           </li>
           <li>
             <button
