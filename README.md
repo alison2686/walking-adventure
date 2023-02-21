@@ -19,6 +19,6 @@ The goal is to provide a service for wellness and health through encouraging use
 
 ## Maps Rendering API:
 
-- Mabox GL 2.11.0
+- Mabox GL version: 1.13.0
 
 [Link to Demo](https://strolls.netlify.app/)
