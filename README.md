@@ -21,4 +21,4 @@ The goal is to provide a service for wellness and health through encouraging use
 
 - Mabox GL version: 1.13.0
 
-[Link to Demo](https://strolls.netlify.app/)
+[![Link to Demo](src/assets/welcome.png)](https://strolls.netlify.app/)
