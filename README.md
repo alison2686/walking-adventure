@@ -24,3 +24,4 @@ The goal is to provide a service for wellness and health through encouraging use
 ## Demo
 
 [![Link to Demo](src/assets/welcome.png)](https://strolls.netlify.app/)
+[strolls.netlify.app](https://strolls.netlify.app/)
